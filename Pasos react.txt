@@ -1,0 +1,33 @@
+primero para crear nuestro proyecto de react tenemos que abrir nuestro terminal cmd
+una vez en cmd:
+primero: cd desktop  //para irte al escritorio
+segundo: npm create vite@latest //te creas la carpeta
+tercero: te pregunta si quieres instalar vite y le dices que si, y
+cuarto: pones el nombre del proyecto // ejercicios-react-1
+quinto: seleccionas el framework react y luego la opcion javascript
+sexto: cd ejercicios-react-1 //para meternos en la carpeta que hemos creado
+septimo: npm install
+octavo: npm run dev //para levantar el servidor
+
+con nuestro proyecto creado ya podemos abrirlo con visual.
+Normalmente lo unico que tendremos que tocar es la carpeta src.
+
+en la carpeta src nos aparece:
+el archivo App.css, aqui estaran los estilos de css
+el archivo App.jsx, es un archivo de javascript que nos permite meter html.
+el archivo index.css
+el archivo main.jsx  
+
+ahora nos vamos al terminal y levantamos el servidor con npm run dev // es como el node --watch
+
+en App.jsx tenemos que eliminar todos los import menos el app.css y tambien eliminar todo en return y dejar solamente el div
+en main.jsx se importa el archivo App.jsx : import App from './App.jsx'
+tambien en main.jsx tenemos que eliminar el strictMode si no cada vez que hagamos un console.log saldra duplicado
+en index.html cambiamos el tittle y le ponemos el titulo del proyecto
+Nuestra logica de javascript la haremos dentro de function App(){aqui} //para poder usar javascript tienes que usar llaves {}
+
+ahora dentro de la carpeta src creamos la carpeta components.  Cda componente es una carpeta y la primera letra tiene que ir en mayuscula.
+entonces creamos la carpeta components,dentro de componentes creamos otra carpeta con el nombre que queramos y dentro de esta creamos el archivo con el nombre de la carpeta y terminado en .jsx, en nuestro caso Person.jsx
+en Person.jsx ponemos rafce y nos crea una funcion con el nombre del archivo. 
+ahora nos vamos a App.jsx y dentro del div 
+
